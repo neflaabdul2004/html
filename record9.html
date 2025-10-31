@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> mouse over</title>
+</head>
+<body bgcolor="CFFFFF">
+<center>
+     <h1> Hover Over the image</h1>
+     <img id="pic" src="/home/ksb/nefla/html/js/js1.jpeg" width="300" height="400" onmouseover="change()" onmouseout="reset()">
+     <p id="text">TAKE PICTURES beacause</p>
+     <script>
+      function change(){
+         document.getElementById("pic").src="/home/ksb/nefla/html/js/js2.jpeg";
+         document.getElementById("text").innerHTML="IT WILL STAY LONGER";
+          }
+          
+      function reset(){
+	  document.getElementById("pic").src="/home/ksb/nefla/html/js/js1.jpeg";
+	  document.getElementById("text").innerHTML="TAKE PICTURES beacause.";
+	  }
+          </script>
+          </center>
+          </body>
+          
+</html>
